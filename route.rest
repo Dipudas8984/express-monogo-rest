@@ -1,0 +1,47 @@
+GET http://localhost:3000/data
+
+
+###
+GET http://localhost:3000/data/611fb1f64b02303a2b4eaf9b
+
+
+###
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+    "name": "Harry",
+    "age": 23,
+    "location": "Hariyana",
+    "email": "codeWithHarry@youtube.com"
+}
+
+
+###
+
+DELETE http://localhost:3000/data/611fb1f64b02303a2b4eaf9b
+
+###
+
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+    "name": "Syam",
+    "age": 21,
+    "location": "Delhi",
+    "email": "syam@gmail.com"
+}
+
+
+###
+
+PATCH http://localhost:3000/data/611fb5ded3bd5041ac1ca18b
+Content-Type: application/json
+
+{
+    "name": "Syama Nanda",
+    "age": 22,
+    "location": "New Delhi",
+    "email": "syamaNanda@gmail.com"
+}
